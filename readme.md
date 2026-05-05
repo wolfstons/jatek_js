@@ -1,5 +1,5 @@
 # 🎮 JavaScript játék projekt
-
+## https://chatgpt.com/share/69f9d28e-bee4-832e-8140-c2bbc76ea275
 ## 📌 Projekt leírás
 
 Ez a projekt egy egyszerű, 2D rács alapú játék, amely HTML, CSS és JavaScript segítségével készült.
@@ -137,3 +137,12 @@ class GameField {
   + spawnItems(n)
   + fetchCharacter()
 }
+class Player {
+  - x: number
+  - y: number
+  - inventory: Array
+  - direction: string
+  - images: Object
+}
+
+GameField --> Player : contains
