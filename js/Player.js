@@ -9,8 +9,9 @@ export default class Player {
 
         // Inventory (felvett tárgyak listája)
         this.inventory = [];
+        this.direction = "down"; // alapértelmezett irány
 
         // A karakter képe (API-ból fog jönni később)
-        this.image = null;
+        this.images = {};
     }
 }
