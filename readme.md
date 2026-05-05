@@ -119,7 +119,7 @@ projekt/
 
 A projekt célja a JavaScript alapú játékfejlesztés és az objektumorientált programozás gyakorlása, valamint külső API használatának bemutatása volt.
 
-
+```mermaid
 classDiagram
 
 class GameField {
