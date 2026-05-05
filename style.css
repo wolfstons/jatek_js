@@ -1,7 +1,7 @@
 /* Grid beállítás (dinamikus oszlopok később JS-ből is állítható) */
 #game {
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     border: 2px solid black;
 
     display: grid;
@@ -10,9 +10,16 @@
 /* Egy cella kinézete */
 .cell {
     border: 1px solid #ccc;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /* 🔹 EZ A LÉNYEG */
+    aspect-ratio: 1 / 1;
+
+    /* 🔹 NE tudjon nőni */
+    overflow: hidden;
 }
 
 /* Játékos megjelenítés */

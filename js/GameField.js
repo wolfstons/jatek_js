@@ -62,8 +62,9 @@ export default class GameField {
           // 🔹 aktuális irányhoz tartozó kép
           img.src = this.player.images[this.player.direction];
 
-          img.style.width = "100%";
-          img.style.height = "100%";
+          img.style.width = "60px";
+          img.style.height = "58px";
+          img.style.objectFit = "contain";
 
           // 🔹 BALRA TÜKRÖZÉS
           if (this.player.direction === "left") {
