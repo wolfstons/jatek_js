@@ -1,0 +1,17 @@
+#container {
+    display: flex;
+    gap: 20px;
+}
+
+#game {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    display: grid;
+}
+
+#info {
+    width: 200px;
+    border: 2px solid black;
+    padding: 10px;
+}
